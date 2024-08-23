@@ -1,100 +1,134 @@
-/* Reset some default styles */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
 body {
+<<<<<<< Updated upstream
     font-family: Arial, sans-serif;
     background-color: #f8f2e0;
     color: #4c3c32;
+=======
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('img/OIP.jpeg');
+    color: #333;
+>>>>>>> Stashed changes
 }
 
 header {
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-image: url('../img/back3.jpg');
+    background-size: cover;
     padding: 20px;
-}
-
-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo img {
-    max-width: 100px;
-}
-
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    margin: 0;
+    padding: 0;
 }
 
-nav a {
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
     text-decoration: none;
-    color: #4c3c32;
     font-weight: bold;
-    transition: color 0.3s;
 }
 
-nav a:hover {
-    color: #7e685b;
+.logo img {
+    height: 50px;
+    width: auto;
 }
 
 .hero {
-    text-align: center;
-    padding: 150px 0;
-    background-image: url('hero-bg.jpg');
+    background-image: url('../img/back2.jpg'); /* Add a hero image */
     background-size: cover;
+<<<<<<< Updated upstream
     color: white;
+=======
+    background-position: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 100px 20px;
+>>>>>>> Stashed changes
 }
 
+
 .hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
 
 .hero p {
-    font-size: 18px;
-    margin-bottom: 40px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
 .cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4c3c32;
+    background-color: #ff9000;
     color: white;
+    padding: 15px 30px;
     text-decoration: none;
+    font-size: 1.2rem;
     border-radius: 5px;
 }
 
 .cta-button:hover {
-    background-color: #7e685b;
+    background-color: #533309;
 }
 
-.menu {
-    padding: 100px 0;
+.menu, .about, .contact {
+    padding: 50px 20px;
     text-align: center;
+    background-color: #050505;
 }
-
 .menu h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-.about {
-    padding: 100px 0;
+    font-size: 2.5em;
     text-align: center;
-    background-color: #ede4d6;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideIn 2s forwards ease-in-out;
 }
 
-.about h2 {
-    font-size: 30px;
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+        color: #ff7f50;
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateX(0);
+        color: #ff6347;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+        color: #ff4500;
+    }
+}
+
+
+.menu h2, .about h2, .contact h2 {
+    font-size: 2rem;
+    color: #f4f0f8;
     margin-bottom: 20px;
 }
 
+/* Row for the coffee & bread menu */
+.row {
+    background-image: url('../img/tree\ cofee.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0;
+}
+
+
+<<<<<<< Updated upstream
 .about p {
     font-size: 18px;
     max-width: 800px;
@@ -124,3 +158,33 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+=======
+.column {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    color: #f7f3fa;
+}
+
+.column h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.column p {
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #4b2e83;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+>>>>>>> Stashed changes
