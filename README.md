@@ -54,6 +54,8 @@ It showcasing the email/ contact number of our Slurpcafee to reach out us.
 [![Github Account](https://github.com/gauravghongde/social-icons/blob/master/PNG/White/Github_white.png 'Github Account')](https://github.com/charsgerand)
 
 
+<img src="img/pat.png" width="150" style="border-radius: 50%;">
+
 ### * Gil Patrick Sibayan *
 
 ** gpatricksibayan@gmail.com **
