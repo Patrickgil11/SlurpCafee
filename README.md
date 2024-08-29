@@ -47,7 +47,7 @@ It showcasing the email/ contact number of our Slurpcafee to reach out us.
 
 
 
-* Links *
+  **Social Links**
 
 [![Facebook Account](https://github.com/gauravghongde/social-icons/blob/master/PNG/White/Facebook_white.png 'Facebook Account')](https://www.facebook.com/profile.php?id=100079022640900)
 
@@ -58,7 +58,7 @@ It showcasing the email/ contact number of our Slurpcafee to reach out us.
 
 ** gpatricksibayan@gmail.com **
 
-* Links *
+  **Social Links**
 
 
 [![Facebook Account](https://github.com/gauravghongde/social-icons/blob/master/PNG/White/Facebook_white.png 'Facebook Account')](https://www.facebook.com/patrick.sibayan.54?mibextid=ZbWKwL)
