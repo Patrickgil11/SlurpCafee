@@ -1,14 +1,11 @@
 body {
-<<<<<<< Updated upstream
     font-family: Arial, sans-serif;
     background-color: #f8f2e0;
-    color: #4c3c32;
-=======
+    color: #4c3c32
     margin: 0;
     font-family: 'Arial', sans-serif;
     background-image: url('img/OIP.jpeg');
     color: #333;
->>>>>>> Stashed changes
 }
 
 header {
@@ -45,14 +42,11 @@ nav ul li a {
 .hero {
     background-image: url('../img/back2.jpg'); /* Add a hero image */
     background-size: cover;
-<<<<<<< Updated upstream
     color: white;
-=======
     background-position: center;
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 100px 20px;
->>>>>>> Stashed changes
 }
 
 
@@ -126,9 +120,6 @@ nav ul li a {
     justify-content: center;
     margin: 0px 0;
 }
-
-
-<<<<<<< Updated upstream
 .about p {
     font-size: 18px;
     max-width: 800px;
@@ -158,7 +149,7 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
-=======
+
 .column {
     flex: 1;
     padding: 20px;
@@ -187,4 +178,4 @@ footer {
 footer p {
     margin: 0;
 }
->>>>>>> Stashed changes
+
