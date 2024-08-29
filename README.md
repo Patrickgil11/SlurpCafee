@@ -17,7 +17,7 @@ Welcoming home page showcasing the features bread and coffee blends.
 
 ---
 
-![Our Menu/Explore Our page](img/our menu.png)
+![Menu](img/our menu.png)
 Showcasing the best bread and coffee product and also  best seller.
 
 
