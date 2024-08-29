@@ -5,10 +5,10 @@ whether youre a casual coffee drinker, it also offers a variety of features to e
 and make your day chill.
 
 ## Features
-*Responsive designed for seamless browsing on any device.
-*Browes a wide variety of coffee blends and types.
-*Detailed product discription with customer reviews.
-*Personalized recomendations based on user preferences.
+- Responsive designed for seamless browsing on any device.
+- Browes a wide variety of coffee blends and types.
+- Detailed product discription with customer reviews.
+- Personalized recomendations based on user preferences.
 
 ## Screen Captured
 ![Home](img/home1.png)
